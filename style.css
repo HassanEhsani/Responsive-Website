@@ -37,7 +37,8 @@ h1 {
     background: #f67c92;
     margin: 15px 0;
 }
-.common-btn{
+
+.common-btn {
     padding: 18px 40px;
     background: transparent;
     outline: none;
@@ -45,37 +46,44 @@ h1 {
     font-weight: bold;
     cursor: pointer;
 }
-p{
+
+p {
     font-size: 15px;
     line-height: 18px;
     color: #777;
 }
-.header-text button{
+
+.header-text button {
     margin-top: 20px;
     margin-bottom: 60px;
 }
-.line-1{
+
+.line-1 {
     width: 15px;
     height: 15px;
     background: #f67c92;
     display: inline-block;
 }
-.line-2{
+
+.line-2 {
     width: 80px;
     height: 1px;
     background: #f67c92;
     display: inline-block;
 }
-.line-3{
+
+.line-3 {
     width: 60px;
     height: 1px;
     background: #f67c92;
     display: inline-block;
 }
-.line{
+
+.line {
     line-height: 8px;
 }
-#sideNav{
+
+#sideNav {
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -85,15 +93,18 @@ p{
     z-index: 2;
     transition: .5s;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 50px 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
 }
-#menuBtn{
+
+#menuBtn {
     width: 50px;
     position: fixed;
     right: 65px;
@@ -101,25 +112,72 @@ nav ul li a{
     z-index: 2;
     cursor: pointer;
 }
+
 /* about */
-#about{
+#about {
     padding: 100px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.about-left-col{
+
+.about-left-col {
     flex-basis: 50%;
 }
-.about-left-col img{
+
+.about-left-col img {
     width: 100%;
 }
-.about-right-col{
+
+.about-right-col {
     flex-basis: 50%;
     text-align: right;
 }
-.about-text{
+
+.about-text {
     max-width: 500px;
     margin-right: 100px;
     display: inline-block;
 }
+
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+/* features */
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.feature-col img {
+    width: 100px;
+}
+.feature-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+ }
