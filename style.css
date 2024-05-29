@@ -288,6 +288,6 @@ hr{
 .footer-left-col{
     flex-basis: 50%;
 }
-.about-right-col{
-    flex-basis: 50%;
+.footer-right-col{
+    flex-basis: 35%;
 }
